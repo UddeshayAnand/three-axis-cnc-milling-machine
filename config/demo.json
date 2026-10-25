@@ -1,0 +1,16 @@
+{
+  "full_steps_per_revolution": 200,
+  "microsteps": 8,
+  "screw_lead_mm": 8,
+  "feed_mm_min": 600,
+  "motor_torque_nm": 1.0,
+  "screw_efficiency": 0.3,
+  "rail_scenario": {
+    "load_per_rail_n": 10,
+    "unsupported_span_mm": 500,
+    "diameter_mm": 8,
+    "youngs_modulus_pa": 200000000000
+  },
+  "rectangle_width_mm": 80,
+  "rectangle_height_mm": 50
+}

@@ -1,0 +1,26 @@
+{
+  "status": "version = 0.1.0",
+  "inputs": {
+    "full_steps_per_revolution": 200,
+    "microsteps": 8,
+    "screw_lead_mm": 8,
+    "feed_mm_min": 600,
+    "motor_torque_nm": 1.0,
+    "screw_efficiency": 0.3,
+    "rail_scenario": {
+      "load_per_rail_n": 10,
+      "unsupported_span_mm": 500,
+      "diameter_mm": 8,
+      "youngs_modulus_pa": 200000000000
+    },
+    "rectangle_width_mm": 80,
+    "rectangle_height_mm": 50
+  },
+  "commanded_steps_per_mm": 200.0,
+  "nominal_command_increment_mm": 0.005,
+  "pulse_frequency_hz": 2000.0,
+  "ideal_axial_force_n": 235.619449,
+  "single_rail_central_deflection_mm": 0.647603,
+  "path_length_mm": 260.0,
+  "ideal_traversal_seconds": 26.0
+}
